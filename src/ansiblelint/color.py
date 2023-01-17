@@ -99,7 +99,7 @@ def _rich_heading_custom_rich_console(
 
 
 # pylint: disable=redefined-outer-name,unused-argument
-def _rich_codeblock_custom_rich_console(
+def _rich_codeblock_custom_rich_console(  # pragma: no cover
     self: rich.markdown.CodeBlock,
     console: Console,
     options: rich.console.ConsoleOptions,
